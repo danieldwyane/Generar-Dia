@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Generar Día</string>
+    <string name="texto_1">¿Qué aprenderás hoy?</string>
+    <string name="boton_1">Averígualo</string>
+</resources>
