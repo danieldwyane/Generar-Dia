@@ -2,36 +2,81 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:theme="@style/AppTheme.Button"
+        android:onClick="ModuloRegistrarComida"
+        android:text="@string/boton_reg_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:theme="@style/AppTheme.Button"
+        android:onClick="ModuloGenerarDia"
+        android:text="@string/boton_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:theme="@style/AppTheme.Button"
+        android:onClick="ModuloGenerarMenu"
+        android:text="@string/boton_gen_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="178dp"
-        android:layout_height="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="8dp"
         android:text="@string/texto_1"
-        android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/button3"
+        android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_green_dark"
-        android:onClick="GenerarAprendizaje"
-        android:text="@string/boton_1"
-        android:textColor="@android:color/white"
+        android:theme="@style/AppTheme.Button"
+        android:onClick="ModuloRegistrarRopa"
+        android:text="@string/boton_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
 </android.support.constraint.ConstraintLayout>

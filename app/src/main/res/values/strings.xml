@@ -1,5 +1,51 @@
 <resources>
     <string name="app_name">Generar Día</string>
-    <string name="texto_1">¿Qué aprenderás hoy?</string>
-    <string name="boton_1">Averígualo</string>
+    <string name="texto_1">Bienvenido! ¿Qué quieres hacer?</string>
+    <string name="boton_1">Generar tu dia</string>
+    <string name="boton_gen_menu">Generar tu menú</string>
+    <string name="mod_generar_dia_text">¿Qué quieres aprender hoy?</string>
+    <string name="mod_generar_dia_boton">Averígualo...</string>
+    <string name="mod_generar_menu_loQuiero">¡Lo Quiero!</string>
+    <string name="mod_generar_menu_text">¿Qué comerás ahorita?</string>
+    <string name="anterior">Atrás</string>
+    <string name="boton_2">Registrar Ropa</string>
+    <string name="boton_reg_menu">Registrar Comida</string>
+
+    <string name="txt_codigo">Código de Ropa</string>
+    <string name="txt_descripcion">Descripción Ropa</string>
+    <string name="txt_precio">Precio Ropa</string>
+    <string name="BotonRegistrar">Registrar Ropa</string>
+    <string name="BotonBuscar">Buscar Ropa</string>
+    <string name="BotonEliminar">Eliminar Ropa</string>
+    <string name="BotonModificar">Modificar Ropa</string>
+
+    <!--Seccion comida-->
+    <string name="txt_descripcion_comida">Descripción Comida</string>
+    <string name="BotonRegistrarComida">Registrar Comida</string>
+    <string name="BotonBuscarComida">Buscar Comida</string>
+    <string name="BotonEliminarComida">Eliminar Comida</string>
+    <string name="BotonModificarComida">Modificar Comida</string>
+
+    <!--Seccion tipo menu-->
+    <string name="txt_tipo_menu">Elige tu tipo de menú</string>
+    <string name="BotonMenuPersonal">Personal</string>
+    <string name="BotonMenuAleatorio">Aleatorio</string>
+
+    <!--Seccion turno menu-->
+    <string name="txt_turno_menu">Elige el turno del menú</string>
+    <string name="BotonTurnoDesayuno">Desayuno</string>
+    <string name="BotonTurnoAlmuerzo">Almuerzo</string>
+    <string name="BotonTurnoCena">Cena</string>
+    <string name="BotonTurnoMerienda">Merienda</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="lblAcc">Select Account Type</string>
+    <string name="lblSubAcc">Select Account Head</string>
+
+    <string-array name="acc_type">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
 </resources>

@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.generardia">
+    package="com.diversion.generardia">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo_for_eat_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo_for_eat_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TurnoMenu"></activity>
+        <activity android:name=".GenerarMenuAleatorio" />
+        <activity android:name=".TipoMenu" />
+        <activity android:name=".GenerarMenu" />
+        <activity android:name=".RegistrarComida" />
+        <activity android:name=".RegistrarRopa" />
+        <activity android:name=".GenerarDia" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
